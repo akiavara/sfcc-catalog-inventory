@@ -1,0 +1,6 @@
+node_modules/
+.idea/
+test.js
+test-catalog.xml
+catalog.xml
+inventory.xml

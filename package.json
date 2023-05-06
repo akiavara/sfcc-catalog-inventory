@@ -1,0 +1,44 @@
+{
+  "name": "@akiavara/sfcc-catalog-inventory",
+  "version": "1.0.0",
+  "description": "Create Salesforce Commerce Cloud Inventory XML from Catalog XML",
+  "homepage": "https://github.com/akiavara/sfcc-catalog-inventory#readme",
+  "main": "bin/index.js",
+  "bin": {
+    "sfcc-catalog-inventory": "bin/index.js"
+  },
+  "keywords": [
+    "salesforce",
+    "sfcc",
+    "catalog",
+    "inventory"
+  ],
+  "contributors": [
+    "Thibault Desmoulins"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akiavara/sfcc-catalog-inventory.git"
+  },
+  "bugs": {
+    "url": "https://github.com/akiavara/sfcc-catalog-inventory/issues"
+  },
+  "scripts": {
+    "lint": "eslint --ext .js ./"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "lodash": "^4.17.21",
+    "ora": "^4.0.5",
+    "xml2js": "^0.4.23",
+    "yargs": "^15.4.1"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.17.0"
+  },
+  "directories": {
+    "lib": "lib"
+  }
+}
